@@ -1,11 +1,14 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar.js';
+import Sidebar from './components/Sidebar.js';
+import CoolNavBar from './components/login.js';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Sidebar />
+      <CoolNavBar name="Bob" />
     </div>
   );
 }
